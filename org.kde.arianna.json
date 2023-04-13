@@ -10,6 +10,7 @@
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
+        "--socket=wayland",
         "--device=dri",
         "--filesystem=home:ro",
         "--env=BALOO_DB_PATH=.local/share/baloo",
