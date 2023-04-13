@@ -19,13 +19,15 @@
     "modules": [
         {
             "name": "kirigamiaddons",
-            "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.8.0.tar.xz",
-                    "sha256": "3741a940fa688f53c7d9bdf607b1c6991f6d690e9ce826e8c76794336c594bcf",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.7.2.tar.xz",
+                    "sha256": "f8629c597d6df715b3eece9ffed94926bf3cab829f22f3aab22e3c822e2b7b76",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -83,7 +85,7 @@
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
-                   "type": "archive",
+                    "type": "archive",
                     "url": "https://download.kde.org/stable/arianna/arianna-1.0.0.tar.xz",
                     "sha256": "5199deb51a34a3304c08ea08cf9eaa131bfddae67c772696e5c808f37e6f011b"
                 }
