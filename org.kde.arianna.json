@@ -85,7 +85,13 @@
                 {
                    "type": "archive",
                     "url": "https://download.kde.org/stable/arianna/arianna-1.0.1.tar.xz",
-                    "sha256": "b5959f5a208dbb1f54cb696908236470cf2fc3ed67e49115050537b0fef8f326"
+                    "sha256": "b5959f5a208dbb1f54cb696908236470cf2fc3ed67e49115050537b0fef8f326",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 341523,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/arianna/arianna-$version.tar.xz"
+                    }
                 }
             ]
         }
