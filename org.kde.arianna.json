@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/arianna-23.08.2.tar.xz",
-                    "sha256": "84abd45e04194e5e3d9ddb102a7ab7c81e0d273fa9d38ba2ee256cf40c6e5fe9",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/arianna-23.08.3.tar.xz",
+                    "sha256": "ee170139e2574d91b8a7c020732f00d789a43028e5006a349788d3fab9562eb7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
