@@ -14,6 +14,7 @@
         "--device=dri",
         "--filesystem=home:ro",
         "--env=BALOO_DB_PATH=.local/share/baloo",
+        "--env=QML2_IMPORT_PATH=/app/qml:/app/lib/qml:/app/lib64/qml",
         "--env=QT_PLUGIN_PATH=/app/plugins:/app/lib64/plugins:/app/lib/plugins:/usr/share/runtime/lib/plugins",
         "--talk-name=org.kde.baloo"
     ],
