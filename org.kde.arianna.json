@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.11.0.tar.xz",
-                    "sha256": "05296c5afbe6804308bf9c0d2751f3b748b40d00fa784946d1dcdf3af4bffbad",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.2.0.tar.xz",
+                    "sha256": "8ff36458aa90ff1d980629357b6ddf5e88ab6bc917b011a7f9fa5d5e12acf51a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/arianna-23.08.5.tar.xz",
-                    "sha256": "effdbba596582f90a74174e9245b49284c3081829f8ca8dd9bfd0392d028c365",
+                    "url": "https://download.kde.org/stable/release-service/24.02.2/src/arianna-24.02.2.tar.xz",
+                    "sha256": "3729a23f94d2379fb587fe900436ffb92ca03ae30296eea57b9625a9b4bebb3e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
