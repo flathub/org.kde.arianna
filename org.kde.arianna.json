@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.0/baloo-6.0.0.tar.xz",
-                    "sha256": "ea21e88d1fe252d2dc95e0b7ae8891594822ccdd898e7aa56d46ed9ecd626a41",
+                    "url": "https://download.kde.org/stable/frameworks/6.1/baloo-6.1.0.tar.xz",
+                    "sha256": "54d821c4dc12191b3f1aeb5e753c1078c8bb46f1515d020467705d7f7c59ccaa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.qt.io/official_releases/qt/6.7/6.7.1/submodules/qthttpserver-everywhere-src-6.7.1.tar.xz",
-                    "sha256": "ed20831ea20524c8d5e74a70dab7b59ae0ee3ccdc266ee5b7ffbf8147df4bbdb",
+                    "url": "https://download.qt.io/official_releases/qt/6.7/6.7.2/submodules/qthttpserver-everywhere-src-6.7.2.tar.xz",
+                    "sha256": "0353b9b4f98a83fec8f15046d4ff9d6ef7c874dcbb3664092fe2508f40778b86",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 7927,
