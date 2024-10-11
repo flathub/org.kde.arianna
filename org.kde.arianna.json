@@ -28,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.4.0.tar.xz",
-                    "sha256": "56e3ceb52055b5603320ea08b27d3673d32a391a8d58646d998227d8b51f0a93",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.5.0.tar.xz",
+                    "sha256": "f9dfd191022b633ea3348f84730d7158a159dfe49668dba0a9e9bd678ac44e54",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.6/baloo-6.6.0.tar.xz",
-                    "sha256": "7b097526d1c8c90cdb8126a941ff4e159f800fcfff6f812668373d7b9b5bb719",
+                    "url": "https://download.kde.org/stable/frameworks/6.7/baloo-6.7.0.tar.xz",
+                    "sha256": "ce8c18a21ed7acd5912c7d273cac5f6cb1adb524a0415d56c6fdde2e967f67cc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.qt.io/official_releases/qt/6.7/6.7.3/submodules/qthttpserver-everywhere-src-6.7.3.tar.xz",
-                    "sha256": "7f2317c7e52b6b634a5be9a9c917066fb707b905ec618f047cc57b8093f4deff",
+                    "url": "https://download.qt.io/official_releases/qt/6.8/6.8.0/submodules/qthttpserver-everywhere-src-6.8.0.tar.xz",
+                    "sha256": "81c308c8d23a5c9062330882008143cfeff88dc783e2d5c7bfaf22c81aae797f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 7927,
@@ -105,8 +105,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/arianna-24.08.1.tar.xz",
-                    "sha256": "727d4d307b4942b116bde1b635e2cbaa1f6fcfde9333be059f70f595602ce45e",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/arianna-24.08.2.tar.xz",
+                    "sha256": "e07a55cc69b99dd0edac86ac2277b357612172eb40fb2ff11cc0a0783ab3c437",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
