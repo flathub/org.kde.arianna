@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.qt.io/official_releases/qt/6.7/6.7.3/submodules/qthttpserver-everywhere-src-6.7.3.tar.xz",
-                    "sha256": "7f2317c7e52b6b634a5be9a9c917066fb707b905ec618f047cc57b8093f4deff",
+                    "url": "https://download.qt.io/official_releases/qt/6.8/6.8.1/submodules/qthttpserver-everywhere-src-6.8.1.tar.xz",
+                    "sha256": "5d8cb90fddc359b1c74d1e344656785c418483b185d32d97c12d834ec39b0b27",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 7927,
