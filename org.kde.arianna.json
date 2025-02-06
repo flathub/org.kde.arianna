@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.qt.io/official_releases/qt/6.8/6.8.1/submodules/qthttpserver-everywhere-src-6.8.1.tar.xz",
-                    "sha256": "5d8cb90fddc359b1c74d1e344656785c418483b185d32d97c12d834ec39b0b27",
+                    "url": "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qthttpserver-everywhere-src-6.8.2.tar.xz",
+                    "sha256": "2d9517c1049a5b330831f7adc1de26d8db5357fdebe616c0a29e9ae1d8900692",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 7927,
@@ -105,8 +105,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/arianna-24.12.1.tar.xz",
-                    "sha256": "4c18319ca3c39b1a93511e4c931dc8f18c8e236615ae0a32f83055a4ebe3eb66",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/arianna-24.12.2.tar.xz",
+                    "sha256": "b4ac51b7a30deb8f9a40b49c3d0b2902c0a01710bedb22518006c9c83b56eb01",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
