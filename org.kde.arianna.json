@@ -1,10 +1,10 @@
 {
     "id": "org.kde.arianna",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.8",
+    "base-version": "6.9",
     "command": "arianna",
     "finish-args": [
         "--share=network",
@@ -83,30 +83,13 @@
             ]
         },
         {
-            "name": "qthttpserver",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qthttpserver-everywhere-src-6.8.2.tar.xz",
-                    "sha256": "2d9517c1049a5b330831f7adc1de26d8db5357fdebe616c0a29e9ae1d8900692",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 7927,
-                        "stable-only": true,
-                        "url-template": "https://download.qt.io/official_releases/qt/$major.$minor/$version/submodules/qthttpserver-everywhere-src-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "arianna",
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.3/src/arianna-24.12.3.tar.xz",
-                    "sha256": "494ff3d4bfb9c7b8ee76344b7423c4ccf7da3f9adbf8a899aed46e573a5ef826",
+                    "url": "https://download.kde.org/stable/release-service/25.04.1/src/arianna-25.04.1.tar.xz",
+                    "sha256": "49396d0420ebba53b4dcb1b4e78e938bec09211f530663be18ab0c864a529514",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
