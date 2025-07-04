@@ -28,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.8.1.tar.xz",
-                    "sha256": "00028ae4df99e250518345ea28d9cdf49d700e9acac482734bb51384da11f945",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.9.0.tar.xz",
+                    "sha256": "21314a91f26b1c962def3fd7ff2e762d3358b075f63f4d7e0144fb2c63b7ebc7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/baloo-6.13.0.tar.xz",
-                    "sha256": "5b4574d9a4a080bdc975e931bd411a7386a0c17ff0d5c5751dd26c92010133f8",
+                    "url": "https://download.kde.org/stable/frameworks/6.15/baloo-6.15.0.tar.xz",
+                    "sha256": "241015fd14ea0fcf281080fd160994f92b6e0ba0750cfafd488d31bf0e0a7f4f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
