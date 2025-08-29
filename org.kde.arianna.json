@@ -18,6 +18,17 @@
         "--socket=wayland",
         "--talk-name=org.kde.baloo"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/*.a",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/lib/*/cmake",
+        "/lib/*/pkgconfig",
+        "/lib/mkspecs",
+        "/share/kdevappwizard",
+        "/share/qlogging-categories6"
+    ],
     "modules": [
         {
             "name": "kirigamiaddons",
