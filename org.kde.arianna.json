@@ -22,7 +22,8 @@
         {
             "name": "kirigamiaddons",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -64,7 +65,8 @@
             "name": "baloo",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DCMAKE_INSTALL_LIBDIR=lib"
+                "-DCMAKE_INSTALL_LIBDIR=lib",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
@@ -85,6 +87,10 @@
         {
             "name": "arianna",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "sources": [
                 {
                     "type": "archive",
