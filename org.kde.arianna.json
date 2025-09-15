@@ -7,22 +7,34 @@
     "base-version": "6.9",
     "command": "arianna",
     "finish-args": [
-        "--share=network",
-        "--share=ipc",
-        "--socket=fallback-x11",
-        "--socket=wayland",
         "--device=dri",
-        "--filesystem=home:ro",
         "--env=BALOO_DB_PATH=.local/share/baloo",
         "--env=QML2_IMPORT_PATH=/app/qml:/app/lib/qml:/app/lib64/qml",
         "--env=QT_PLUGIN_PATH=/app/plugins:/app/lib64/plugins:/app/lib/plugins:/usr/share/runtime/lib/plugins",
+        "--filesystem=home:ro",
+        "--share=ipc",
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=wayland",
         "--talk-name=org.kde.baloo"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/*.a",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/lib/*/cmake",
+        "/lib/*/pkgconfig",
+        "/lib/mkspecs",
+        "/share/kdevappwizard",
+        "/share/qlogging-categories6"
     ],
     "modules": [
         {
             "name": "kirigamiaddons",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -64,7 +76,8 @@
             "name": "baloo",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DCMAKE_INSTALL_LIBDIR=lib"
+                "-DCMAKE_INSTALL_LIBDIR=lib",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
@@ -85,6 +98,10 @@
         {
             "name": "arianna",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "sources": [
                 {
                     "type": "archive",
