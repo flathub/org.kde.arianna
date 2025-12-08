@@ -1,10 +1,10 @@
 {
     "id": "org.kde.arianna",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.9",
+    "runtime-version": "6.10",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.9",
+    "base-version": "6.10",
     "command": "arianna",
     "finish-args": [
         "--device=dri",
@@ -30,27 +30,6 @@
         "/share/qlogging-categories6"
     ],
     "modules": [
-        {
-            "name": "kirigamiaddons",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-            ],
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.10.0.tar.xz",
-                    "sha256": "c98f92bf7c452e12f6dc403404215413db3959fe904ad830ead0db6bb09b3d11",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 242933,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
-                    }
-                }
-            ]
-        },
         {
             "name": "lmdb",
             "no-autogen": true,
@@ -84,8 +63,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.18/baloo-6.18.0.tar.xz",
-                    "sha256": "680b01ed7c789b7ef0ee8f14faffaf2e8bdf87a56a26eb2a6f95a472e5630903",
+                    "url": "https://download.kde.org/stable/frameworks/6.19/baloo-6.19.0.tar.xz",
+                    "sha256": "af3d5d85d4ed22963564fa6cc5557d489f17cba30d58308bba8c4c93d4e84688",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
