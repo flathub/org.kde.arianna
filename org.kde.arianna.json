@@ -20,14 +20,17 @@
     ],
     "cleanup": [
         "/include",
-        "/lib/*.a",
         "/lib/cmake",
         "/lib/pkgconfig",
-        "/lib/*/cmake",
-        "/lib/*/pkgconfig",
-        "/lib/mkspecs",
+        "/mkspecs",
+        "/share/man",
         "/share/kdevappwizard",
-        "/share/qlogging-categories6"
+        "/share/qlogging-categories6",
+        "*.la",
+        "*.a"
+    ],
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
     ],
     "modules": [
         {
