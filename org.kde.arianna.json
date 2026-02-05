@@ -43,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.33/openldap-LMDB_0.9.33.tar.gz",
-                    "sha256": "476801f5239c88c7de61c3390502a5d13965ecedef80105b5fb0fcb8373d1e53",
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.35/openldap-LMDB_0.9.35.tar.gz",
+                    "sha256": "0d090c6a7c85a4f31a2ab0d734554c21097f24752393a190b0e51996b08f48c4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6974,
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/arianna-25.12.1.tar.xz",
-                    "sha256": "c769ee3a85ed85eec1651155513c61764fb90b458b9e748bafcc7cd102f87158",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/arianna-25.12.2.tar.xz",
+                    "sha256": "5edc4b7ec556d1b640d145cb7c9539e32ecadd016836bc5b58fdd6692b182def",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
