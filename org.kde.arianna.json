@@ -90,6 +90,7 @@
                     "url": "https://download.kde.org/stable/release-service/25.12.2/src/arianna-25.12.2.tar.xz",
                     "sha256": "5edc4b7ec556d1b640d145cb7c9539e32ecadd016836bc5b58fdd6692b182def",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
