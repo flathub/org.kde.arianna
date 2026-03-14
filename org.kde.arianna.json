@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.22/baloo-6.22.0.tar.xz",
-                    "sha256": "57b2ac1ae953d499b7364125fe3e7aa5857fb532456ecf0bda2635e875a66d2a",
+                    "url": "https://download.kde.org/stable/frameworks/6.24/baloo-6.24.0.tar.xz",
+                    "sha256": "1f72676817b9636b80c971934fb7f2c5d396da4758c33998abc4b9ae82195ce4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/arianna-25.12.2.tar.xz",
-                    "sha256": "5edc4b7ec556d1b640d145cb7c9539e32ecadd016836bc5b58fdd6692b182def",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/arianna-25.12.3.tar.xz",
+                    "sha256": "03369b86f259256300f280b8d883b25bd02e50cf9dc45096b2496d6302fe8308",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
