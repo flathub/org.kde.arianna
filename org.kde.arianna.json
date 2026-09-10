@@ -43,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.0/openldap-LMDB_1.0.0.tar.gz",
-                    "sha256": "a61ded12bd9c670038b77483dda13b50684a93a111e53421dfb979624ae9f72e",
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.2/openldap-LMDB_1.0.2.tar.gz",
+                    "sha256": "38a029bb3e29820380e18a2dfdbe906bbc5b322132c63274c5e4ed7833821752",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6974,
@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.27/baloo-6.27.0.tar.xz",
-                    "sha256": "6b226118bde28e81217f8cd6129f6e24c5d422bd7a322fe682e592b028b72db7",
+                    "url": "https://download.kde.org/stable/frameworks/6.30/baloo-6.30.0.tar.xz",
+                    "sha256": "a59d33a919bfa1d164c8f3a6f992c609edaf2131ac5f52ea4ecb77f6fbc53be1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/arianna-26.04.3.tar.xz",
-                    "sha256": "ad34fbc90ffc5e3676c7d316f402095cee3739d2e382985dd3da158cc0a2398e",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/arianna-26.08.1.tar.xz",
+                    "sha256": "affa1f27d97608bad8ab0871ca06906d47127c0731bd4759f975e7e59cd1ff00",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
