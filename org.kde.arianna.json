@@ -1,10 +1,10 @@
 {
     "id": "org.kde.arianna",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.10",
+    "runtime-version": "6.11",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.10",
+    "base-version": "6.11",
     "command": "arianna",
     "finish-args": [
         "--device=dri",
@@ -43,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.0/openldap-LMDB_1.0.0.tar.gz",
-                    "sha256": "a61ded12bd9c670038b77483dda13b50684a93a111e53421dfb979624ae9f72e",
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.3/openldap-LMDB_1.0.3.tar.gz",
+                    "sha256": "e2d6d9985a16d7ce6bbf5e97c7099c50e38950ee98a7dd8e30c82b74eb9ee382",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6974,
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/arianna-26.04.3.tar.xz",
-                    "sha256": "ad34fbc90ffc5e3676c7d316f402095cee3739d2e382985dd3da158cc0a2398e",
+                    "url": "https://download.kde.org/stable/release-service/26.08.3/src/arianna-26.08.3.tar.xz",
+                    "sha256": "913cd04fbfb11c548f118a17d650c0316edd76d989351f0320a0f3bf9ed53806",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
